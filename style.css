@@ -1,0 +1,41 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.code{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.code__wrapper{
+    max-width: 280px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.code__image{
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.code__title{
+    font-size: 22px;
+}
+
+.code__text{
+    font-size: 15px;
+}
